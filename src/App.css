@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* Nav */
+nav {
+  padding: 2rem;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav--logo {
+  max-width: 6.25rem;
+  height: 1.56rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Main content */
+section {
+  padding: 1.25rem;
+}
+
+.main-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-section--img {
+  width: 90%;
+  max-width: 44rem;
+  align-self: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-section h1 {
+  font-size: 2.25rem;
+}
+
+.main-section p {
+  width: 19rem;
+  line-height: 1.1;
+}
+
+
+/* Cards */
+
+.experience-card {
+  padding: 3rem;
 }
