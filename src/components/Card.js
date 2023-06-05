@@ -1,19 +1,19 @@
 import React from "react";
-import cardPhoto from "../images/firstcard.png";
+// import cardPhoto from "../images/firstcard.png";
 import starIcon from "../images/star.png";
 
-function Card() {
+function Card(props) {
     return (
         <div className="card">
-            <img className="card--photo" src={cardPhoto} />
+            <img className="card--photo" src={props.img} />
             <div className="card--stats">
                 <img className="card--star-icon" src={starIcon} />
-                <span>5.0</span>
-                <span className="grey-text">(8)</span>
-                <span className="grey-text">• USA</span>
+                <span>{props.rating}</span>
+                <span className="grey-text">({props.reviewCount})</span>
+                <span className="grey-text">• {props.country}</span>
             </div>
-            <p>Life lessons with Katie Zaferes</p>
-            <p><b>From $136</b> / person</p>
+            <p>{props.title}</p>
+            <p><b>From {props.price}</b> / person</p>
         </div>
     )
 }
