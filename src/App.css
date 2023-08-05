@@ -50,6 +50,10 @@ section {
 
 /* Cards */
 
+.cards-container {
+  display: flex;
+}
+
 .card {
   width: 275px;
   padding: 32px;
