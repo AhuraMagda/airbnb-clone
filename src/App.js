@@ -20,7 +20,7 @@ function App() {
       <Header />
       <Main />
       <section className='cards-container'>
-      {cards}
+        {cards}
       </section>
     </div>
   );

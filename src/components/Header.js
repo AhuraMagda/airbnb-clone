@@ -5,7 +5,7 @@ import logo from "../images/airbnb1.png";
 function Header() {
     return (
         <nav>
-            <img className="nav--logo" src={logo} />
+            <img className="nav__logo" src={logo} />
         </nav>
     )
 }

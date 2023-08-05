@@ -11,10 +11,10 @@ function Card(props) {
     }
     return (
         <div className="card">
-            {badgeText && <div className="card--badge">{badgeText}</div>}
-            <img className="card--photo" src={props.item.coverImg}/>
-            <div className="card--stats">
-                <img className="card--star-icon" src={starIcon} />
+            {badgeText && <div className="card__badge">{badgeText}</div>}
+            <img className="card__photo" src={props.item.coverImg}/>
+            <div className="card__stats">
+                <img className="card__star-icon" src={starIcon} />
                 <span>{props.item.stats.rating}</span>
                 <span className="grey-text">({props.item.stats.reviewCount})</span>
                 <span className="grey-text">• {props.item.location}</span>
