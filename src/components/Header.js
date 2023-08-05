@@ -1,11 +1,10 @@
 import React from "react";
-import logo from "../images/airbnb1.png";
 
 
 function Header() {
     return (
         <nav>
-            <img className="nav__logo" src={logo} />
+            <img className="nav__logo" src="../images/airbnb1.png" />
         </nav>
     )
 }
