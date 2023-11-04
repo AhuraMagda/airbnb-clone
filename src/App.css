@@ -1,15 +1,12 @@
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-
 .grey-text {
-  color: #918E9B;
+  color: #918e9b;
 }
 
 /* Nav */
@@ -48,7 +45,6 @@ section {
   line-height: 1.1;
 }
 
-
 /* Cards */
 
 .cards-container {
@@ -59,13 +55,12 @@ section {
 .card {
   width: 175px;
   font-size: 12px;
-  flex: 0 0 auto;         
-  display: flex;          
-  flex-direction: column; 
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
   position: relative;
   margin: 0px 10px;
 }
-
 
 .card__photo {
   width: 100%;
